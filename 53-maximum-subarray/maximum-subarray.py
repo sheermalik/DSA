@@ -1,7 +1,7 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         currentSum=0
-        maxSum=float('-inf')
+        maxSum=nums[0]
 
         for number in nums:
             currentSum+=number
