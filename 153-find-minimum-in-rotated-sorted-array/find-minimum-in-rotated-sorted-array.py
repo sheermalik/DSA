@@ -13,10 +13,10 @@ class Solution:
 
             if nums[mid] >= nums[left]:
                 left=mid+1
-                result= min(nums[mid],result)
+             
             else:
                 right=mid-1
-                result= min(nums[mid],result)
+               
         #result=min (result, nums[left])    
         return min(result, nums[left])
    
